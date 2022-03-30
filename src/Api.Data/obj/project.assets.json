@@ -5328,11 +5328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
+      "projectUniqueName": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
+      "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
       "packagesPath": "C:\\Users\\EDER\\.nuget\\packages\\",
-      "outputPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Data\\obj\\",
+      "outputPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EDER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5349,8 +5349,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj"
+            "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj"
             }
           }
         }

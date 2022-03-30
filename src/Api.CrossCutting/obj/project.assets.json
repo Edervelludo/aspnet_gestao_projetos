@@ -5367,11 +5367,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\CrossCutting.csproj",
+      "projectUniqueName": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\CrossCutting.csproj",
       "projectName": "CrossCutting",
-      "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\CrossCutting.csproj",
+      "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\CrossCutting.csproj",
       "packagesPath": "C:\\Users\\EDER\\.nuget\\packages\\",
-      "outputPath": "D:\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\obj\\",
+      "outputPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\EDER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5388,14 +5388,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj": {
-              "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj"
+            "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj": {
+              "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj"
             },
-            "D:\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
-              "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj"
+            "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
+              "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj"
             },
-            "D:\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj": {
-              "projectPath": "D:\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj"
+            "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj": {
+              "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj"
             }
           }
         }

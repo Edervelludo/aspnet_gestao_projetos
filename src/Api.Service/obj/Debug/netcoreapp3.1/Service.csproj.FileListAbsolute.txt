@@ -40,3 +40,17 @@ D:\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj
 D:\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
 D:\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
 D:\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Service.deps.json
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Service.dll
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Service.pdb
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Data.dll
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.dll
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\bin\Debug\netcoreapp3.1\Data.pdb
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csprojAssemblyReference.cache
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfoInputs.cache
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.AssemblyInfo.cs
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CoreCompileInputs.cache
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.csproj.CopyComplete
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.dll
+D:\DEV\Aspnet_gestao_projetos\src\Api.Service\obj\Debug\netcoreapp3.1\Service.pdb

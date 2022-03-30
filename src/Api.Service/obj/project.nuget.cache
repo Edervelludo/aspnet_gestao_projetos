@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ae1X1+pD/5ixipb/LzkASilIzCqZkgSh2M31v1myz1kJ/b7Bc5A1P/FsVU4XUrMlV0PH8025AnGv2ID073tC7A==",
+  "dgSpecHash": "BLDCrczvc3DqeyrJPcPqr61vdbxTG/CGBm69ith8oyPlgrSxnkVPBnXFn18kyMhuB/C8le8e85QEQt3eVWfQpg==",
   "success": true,
-  "projectFilePath": "D:\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj",
+  "projectFilePath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EDER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\EDER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

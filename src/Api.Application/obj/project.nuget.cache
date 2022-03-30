@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Kp0xQg2yTa32OAobHkUuecaioK5pZHa0dKpjL/Q+lOIKv2hOtiKe/5nMLF4cFxHUcGwVIuBIRdRiwrQc5tkug==",
+  "dgSpecHash": "T3TqSnQmysCn8PvTTIDs8ZAR0eggWRRdT1f92iIGQmYJ7hKwIt7pdoTg/GYGFslthGI22KPheK4xy6EEJX5vNg==",
   "success": true,
-  "projectFilePath": "D:\\Aspnet_gestao_projetos\\src\\Api.Application\\application.csproj",
+  "projectFilePath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Application\\application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EDER\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\EDER\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
