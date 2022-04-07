@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Api.Domain.Entities
 {
-    public class DepartamentoEntity : BaseEntity
+    public class AtividadeStatusEntity : BaseEntity
     {
         [Required]
         [MaxLength(200)]
@@ -11,7 +11,6 @@ namespace Api.Domain.Entities
 
         [MaxLength(200)]
         public string descricao { get; set; }
-
-        public IEnumerable<RecursoEntity> Recursos { get; set; }
+        public IEnumerable<AtividadeEntity> atividades { get; set; }
     }
 }

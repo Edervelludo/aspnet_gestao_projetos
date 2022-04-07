@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Api.Domain.Entities
@@ -34,9 +35,7 @@ namespace Api.Domain.Entities
         public Guid DepartamentoId { get; set; }
         public DepartamentoEntity Departamento { get; set; }
 
-
-
-
+        public IEnumerable<AtividadeEntity> atividades { get; set; }
 
 
     }

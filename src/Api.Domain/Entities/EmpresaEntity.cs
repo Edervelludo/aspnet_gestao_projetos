@@ -1,4 +1,6 @@
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
+
 
 namespace Api.Domain.Entities
 {
@@ -10,5 +12,7 @@ namespace Api.Domain.Entities
 
         [MaxLength(200)]
         public string descricao { get; set; }
+
+        public IEnumerable<RecursoEntity> Recursos { get; set; }
     }
 }
