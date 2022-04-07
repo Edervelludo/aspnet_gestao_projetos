@@ -18,7 +18,7 @@ namespace Api.Domain.Entities
         [MaxLength(200)]
         public string nome { get; set; }
 
-        public bool marco { get; set; }
+        public Boolean marco { get; set; }
 
         public int duracao { get; set; }
 

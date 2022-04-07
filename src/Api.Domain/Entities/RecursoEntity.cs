@@ -37,6 +37,9 @@ namespace Api.Domain.Entities
 
         public IEnumerable<AtividadeEntity> atividades { get; set; }
 
+        public IEnumerable<CartaoTempoEntity> cartoresTempo { get; set; }
+
+        public IEnumerable<QuestaoEntity> questoesCriadas { get; set; }
 
     }
 }

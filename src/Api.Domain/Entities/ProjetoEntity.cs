@@ -46,6 +46,8 @@ namespace Api.Domain.Entities
         public ProjetoStatusEntity status { get; set; }
 
         public IEnumerable<AtividadeEntity> atividades { get; set; }
+        public IEnumerable<CartaoTempoEntity> cartoesTempo { get; set; }
+        public IEnumerable<DocumentoProjetoEntity> documentos { get; set; }
 
     }
 }
