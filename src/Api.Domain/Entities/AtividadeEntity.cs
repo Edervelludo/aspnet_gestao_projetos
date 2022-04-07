@@ -7,10 +7,10 @@ namespace Api.Domain.Entities
     public class AtividadeEntity : BaseEntity
     {
         [Required]
-
         public Guid projetoid { get; set; }
         public ProjetoEntity projeto { get; set; }
 
+        [Required]
         public Guid faseprojetoid { get; set; }
         public FaseProjetoEntity faseprojeto { get; set; }
 
@@ -20,18 +20,19 @@ namespace Api.Domain.Entities
 
         public Boolean marco { get; set; }
 
+        [Required]
         public int duracao { get; set; }
 
         public DateTime inicio { get; set; }
 
         public DateTime fim { get; set; }
         public int diasatraso { get; set; }
-
+        [Required]
         public Guid atividadestatusid { get; set; }
         public AtividadeStatusEntity atividadestatus { get; set; }
 
         public decimal percentualcompleto { get; set; }
-
+        [Required]
         public Guid atividadeprioridadeid { get; set; }
         public AtividadePrioridadeEntity atividadeprioridade { get; set; }
 
