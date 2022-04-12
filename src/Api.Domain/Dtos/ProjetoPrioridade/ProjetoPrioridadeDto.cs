@@ -1,15 +1,15 @@
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Api.Domain.Dtos
 {
-    public class FaseProjetoDto
+    public class ProjetoPrioridadeDto
     {
-
-        public int Id { get; set; }
+        public Guid id { get; set; }
         public string nome { get; set; }
-
         public string descricao { get; set; }
 
+        //public IEnumerable<ProjetoEntity> projetos { get; set; }
     }
 }

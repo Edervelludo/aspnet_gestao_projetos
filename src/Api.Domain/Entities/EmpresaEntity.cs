@@ -9,10 +9,9 @@ namespace Api.Domain.Entities
         [Required]
         [MaxLength(200)]
         public string nome { get; set; }
-
         [MaxLength(200)]
         public string descricao { get; set; }
-
         public IEnumerable<RecursoEntity> Recursos { get; set; }
+        public IEnumerable<ProjetoEntity> Projetos { get; set; }
     }
 }

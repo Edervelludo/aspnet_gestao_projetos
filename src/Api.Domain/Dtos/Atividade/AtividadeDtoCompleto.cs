@@ -1,6 +1,7 @@
 using System;
 using Api.Domain.Dtos.AtividadePrioridade;
 using Api.Domain.Dtos.AtividadeStatus;
+using Api.Domain.Dtos.Projeto;
 
 namespace Api.Domain.Dtos.Atividade
 {
@@ -8,11 +9,9 @@ namespace Api.Domain.Dtos.Atividade
     {
         public Guid Id { get; set; }
         public Guid ProjetoId { get; set; }
-
-        // public ProjetoDto ProjetoDto { get; set; }
+        public ProjetoDtoCompleto ProjetoDto { get; set; }
         public Guid FaseProjetoId { get; set; }
-
-        //public FaseProjetoDto FaseProjeto { get; set; }
+        public FaseProjetoDto FaseProjeto { get; set; }
         public string Nome { get; set; }
 
         public Boolean Marco { get; set; }
@@ -33,11 +32,11 @@ namespace Api.Domain.Dtos.Atividade
         public AtividadePrioridadeDto AtividadePrioridade { get; set; }
 
         public Guid AtribuidoaRecursoId { get; set; }
-        //public RecursoDto AtribuidoARecurso { get; set; }
+        public RecursoDtoCompleto AtribuidoARecurso { get; set; }
         public string Historico { get; set; }
 
         public Guid AtividadePrecedeId { get; set; }
-        public AtividadeDto AtividadePrecede { get; set; }
+        public AtividadeDtoCompleto AtividadePrecede { get; set; }
 
     }
 }
