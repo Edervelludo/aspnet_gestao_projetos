@@ -1,18 +1,15 @@
 using System.ComponentModel.DataAnnotations;
 using System.Collections.Generic;
 using System;
-using Api.Domain.Dtos.Projeto;
 
 namespace Api.Domain.Dtos
 {
-    public class EmpresaDtoCompleto
+    public class EmpresaDtoCreateResult
     {
         public Guid Id { get; set; }
         public string nome { get; set; }
         public string descricao { get; set; }
-
-        public IEnumerable<RecursoDtoCompleto> Recursos { get; set; }
-        public IEnumerable<ProjetoDtoCompleto> Projetos { get; set; }
+        public DateTime CreateAt { get; set; }
 
     }
 }

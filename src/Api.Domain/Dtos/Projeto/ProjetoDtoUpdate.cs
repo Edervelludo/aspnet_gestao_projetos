@@ -2,21 +2,22 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using Api.Domain.Dtos.Atividade;
-using Api.Domain.Dtos.CartaoTempo;
-using Api.Domain.Dtos.DocumentoProjeto;
-using Api.Domain.Dtos.Questoes;
 
 namespace Api.Domain.Dtos.Projeto
 {
-    public class ProjetoDtoCompleto
+    public class ProjetoDtoUpdate
     {
+
+        [Required(ErrorMessage = "Id do Projeto é campo Obrigatorio")]
         public Guid Id { get; set; }
+        [Required(ErrorMessage = "Líder do Projeto é campo Obrigatorio")]
         public string lider { get; set; }
         public string dono { get; set; }
+        [Required(ErrorMessage = "Dono do Projeto é campo Obrigatorio")]
         public string nome { get; set; }
+        [Required(ErrorMessage = "Dono do Projeto é campo Obrigatorio")]
         public Guid EmpresaId { get; set; }
-        public EmpresaDtoCompleto Empresa { get; set; }
+        //public EmpresaEntity Empresa { get; set; }
         public string descricao { get; set; }
         public DateTime inicio { get; set; }
         public DateTime planejamentofim { get; set; }
@@ -27,15 +28,12 @@ namespace Api.Domain.Dtos.Projeto
         public int estimativaHora { get; set; }
         public int horaAtual { get; set; }
         public Guid prioridadeGuid { get; set; }
-        public ProjetoPrioridadeDtoComleto prioridade { get; set; }
+        // public ProjetoPrioridadeEntity prioridade { get; set; }
         public Guid statusGuid { get; set; }
-        public ProjetoStatusDtoCompleto status { get; set; }
-        public IEnumerable<AtividadeDtoCompleto> atividades { get; set; }
-        public IEnumerable<CartaoTempoDtoCompleto> cartoesTempo { get; set; }
-
-        public IEnumerable<DocumentoProjetoDtoCompleto> documentos { get; set; }
-
-        public IEnumerable<QuestaoDtoCompleto> questoes { get; set; }
+        // public ProjetoStatusEntity status { get; set; }
+        //   public IEnumerable<AtividadeEntity> atividades { get; set; }
+        //   public IEnumerable<CartaoTempoEntity> cartoesTempo { get; set; }
+        //   public IEnumerable<DocumentoProjetoEntity> documentos { get; set; }
 
 
     }

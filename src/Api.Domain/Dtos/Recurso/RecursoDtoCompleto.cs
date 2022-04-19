@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using Api.Domain.Dtos.Atividade;
+using Api.Domain.Dtos.CartaoTempo;
+using Api.Domain.Dtos.Questoes;
 
 namespace Api.Domain.Dtos
 {
@@ -22,9 +24,9 @@ namespace Api.Domain.Dtos
 
         public IEnumerable<AtividadeDtoCompleto> atividades { get; set; }
 
-        //public IEnumerable<CartaoTempoEntity> cartoresTempo { get; set; }
+        public IEnumerable<CartaoTempoDtoCompleto> cartoresTempo { get; set; }
 
-        // public IEnumerable<QuestaoEntity> questoesCriadas { get; set; }
+        public IEnumerable<QuestaoDtoCompleto> questoesCriadas { get; set; }
 
     }
 }

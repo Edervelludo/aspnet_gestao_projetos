@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace Api.Domain.Entities
@@ -9,7 +10,7 @@ namespace Api.Domain.Entities
         public string nome { get; set; }
         [MaxLength(200)]
         public string descricao { get; set; }
-
+        public IEnumerable<DocumentoProjetoEntity> documentos { get; set; }
 
     }
 }

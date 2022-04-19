@@ -1,3 +1,17 @@
 Atividade
 AtividadeStatus
 AtividadePrioridade
+Departamento
+CartaoTempo
+Empresa
+FaseProjeto
+ProjetoPrioridade
+ProjetoStatus
+TipoArquivo
+DocumentoProjeto
+DocumentoHistorico
+Projeto
+QuestaoPrioridade
+QuestaoStatus
+Questão
+Recurso

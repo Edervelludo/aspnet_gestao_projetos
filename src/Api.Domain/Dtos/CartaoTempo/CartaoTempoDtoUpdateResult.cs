@@ -2,22 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Api.Domain.Entities
+namespace Api.Domain.Dtos.CartaoTempo
 {
-    public class CartaoTempoEntity : BaseEntity
+    public class CartaoTempoDtoUpdateResult
     {
-        [Required]
+
+        public Guid id { get; set; }
         public Guid projetoid { get; set; }
-
-        public ProjetoEntity projeto { get; set; }
-
-        [Required]
         public Guid recursoid { get; set; }
-
-        public RecursoEntity recurso { get; set; }
-
         public DateTime semanaini { get; set; }
-
         public int hdom { get; set; }
         public int hseg { get; set; }
         public int hter { get; set; }
@@ -25,6 +18,7 @@ namespace Api.Domain.Entities
         public int hqui { get; set; }
         public int hsex { get; set; }
         public int hsab { get; set; }
+        public DateTime UpdateAt { get; set; }
 
     }
 }

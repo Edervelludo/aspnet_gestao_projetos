@@ -2,14 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Api.Domain.Dtos
+namespace Api.Domain.Dtos.TipoArquivo
 {
-    public class DepartamentoDto
+    public class TipoArquivoDto
     {
-        public Guid id { get; set; }
+        public Guid Id { get; set; }
         public string nome { get; set; }
-        public string descricao { get; set; }
 
-        public IEnumerable<RecursoDtoCompleto> Recursos { get; set; }
+        public string descricao { get; set; }
+        //public IEnumerable<DocumentoProjetoD> documentos { get; set; }
+
     }
 }

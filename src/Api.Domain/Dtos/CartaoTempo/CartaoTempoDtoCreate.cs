@@ -1,23 +1,17 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Api.Domain.Dtos.Projeto;
 
-namespace Api.Domain.Entities
+namespace Api.Domain.Dtos.CartaoTempo
 {
-    public class CartaoTempoEntity : BaseEntity
+    public class CartaoTempoDtoCreate
     {
-        [Required]
+        [Required(ErrorMessage = "Id do Projeto é campo Obrigatorio")]
         public Guid projetoid { get; set; }
-
-        public ProjetoEntity projeto { get; set; }
-
-        [Required]
+        [Required(ErrorMessage = "Id do Recurso é campo Obrigatorio")]
         public Guid recursoid { get; set; }
-
-        public RecursoEntity recurso { get; set; }
-
         public DateTime semanaini { get; set; }
-
         public int hdom { get; set; }
         public int hseg { get; set; }
         public int hter { get; set; }
@@ -25,6 +19,7 @@ namespace Api.Domain.Entities
         public int hqui { get; set; }
         public int hsex { get; set; }
         public int hsab { get; set; }
+
 
     }
 }
