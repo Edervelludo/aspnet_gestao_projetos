@@ -5,7 +5,7 @@ using Api.Domain.Dtos.Projeto;
 
 namespace Api.Domain.Dtos
 {
-    public class ProjetoPrioridadeDtoComleto
+    public class ProjetoPrioridadeDtoCompleto
     {
         public Guid id { get; set; }
         public string nome { get; set; }

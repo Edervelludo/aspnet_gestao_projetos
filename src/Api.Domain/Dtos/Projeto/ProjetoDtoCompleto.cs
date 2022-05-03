@@ -1,7 +1,7 @@
 using System;
-using System.Collections.Concurrent;
+
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+
 using Api.Domain.Dtos.Atividade;
 using Api.Domain.Dtos.CartaoTempo;
 using Api.Domain.Dtos.DocumentoProjeto;
@@ -27,7 +27,7 @@ namespace Api.Domain.Dtos.Projeto
         public int estimativaHora { get; set; }
         public int horaAtual { get; set; }
         public Guid prioridadeGuid { get; set; }
-        public ProjetoPrioridadeDtoComleto prioridade { get; set; }
+        public ProjetoPrioridadeDtoCompleto prioridade { get; set; }
         public Guid statusGuid { get; set; }
         public ProjetoStatusDtoCompleto status { get; set; }
         public IEnumerable<AtividadeDtoCompleto> atividades { get; set; }

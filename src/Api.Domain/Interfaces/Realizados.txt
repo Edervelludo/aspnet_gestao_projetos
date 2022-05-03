@@ -1,0 +1,17 @@
+Atividade I
+AtividadeStatus I
+AtividadePrioridade I
+Departamento I
+CartaoTempo I
+Empresa I
+FaseProjeto I
+ProjetoPrioridade I
+ProjetoStatus I
+TipoArquivo I
+DocumentoProjeto I
+DocumentoHistorico I
+Projeto I
+QuestaoPrioridade I
+QuestaoStatus I
+Questao I
+Recurso I

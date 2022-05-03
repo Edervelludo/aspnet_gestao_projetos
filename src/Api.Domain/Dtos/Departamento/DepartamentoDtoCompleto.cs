@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace Api.Domain.Dtos
+namespace Api.Domain.Dtos.Departamento
 {
     public class DepartamentoDtoCompleto
     {

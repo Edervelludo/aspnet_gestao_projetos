@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using Api.Domain.Dtos.Atividade;
 using Api.Domain.Dtos.CartaoTempo;
 using Api.Domain.Dtos.Questoes;
+using Api.Domain.Dtos.Departamento;
 
 namespace Api.Domain.Dtos
 {
