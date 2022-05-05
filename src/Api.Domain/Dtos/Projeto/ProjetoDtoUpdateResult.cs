@@ -8,13 +8,13 @@ namespace Api.Domain.Dtos.Projeto
     public class ProjetoDtoUpdateResult
     {
 
-     
+
         public Guid Id { get; set; }
-          public string lider { get; set; }
+        public string lider { get; set; }
         public string dono { get; set; }
-        
+
         public string nome { get; set; }
-   
+
         public Guid EmpresaId { get; set; }
         //public EmpresaEntity Empresa { get; set; }
         public string descricao { get; set; }
@@ -22,7 +22,7 @@ namespace Api.Domain.Dtos.Projeto
         public DateTime planejamentofim { get; set; }
         public decimal percentualConclusao { get; set; }
         public decimal custoEstimado { get; set; }
-        public decimal cursoAtual { get; set; }
+        public decimal custoAtual { get; set; }
         public decimal percentualOrcamento { get; set; }
         public int estimativaHora { get; set; }
         public int horaAtual { get; set; }

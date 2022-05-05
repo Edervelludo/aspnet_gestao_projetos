@@ -29,7 +29,7 @@ namespace Api.Domain.Entities
 
         public decimal percentualConclusao { get; set; }
         public decimal custoEstimado { get; set; }
-        public decimal cursoAtual { get; set; }
+        public decimal custoAtual { get; set; }
         public decimal percentualOrcamento { get; set; }
 
         public int estimativaHora { get; set; }

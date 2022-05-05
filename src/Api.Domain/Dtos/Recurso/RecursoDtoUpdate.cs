@@ -23,7 +23,7 @@ namespace Api.Domain.Dtos.Resurso
         public string habilidades { get; set; }
 
         [StringLength(500, ErrorMessage = "Observações deve ter no máximo {1} caracteres.")]
-        public string obsrevacoes { get; set; }
+        public string observacoes { get; set; }
         public decimal valorHora { get; set; }
 
         [StringLength(100, ErrorMessage = "Cargo deve ter no máximo {1} caracteres.")]

@@ -16,7 +16,7 @@ namespace Api.Domain.Entities
         public string titulo { get; set; }
         public string descricao { get; set; }
 
-        public string arquivoblob { get; set; }
+        public Byte[] arquivoblob { get; set; }
 
         public Guid idtipoArquivo { get; set; }
 

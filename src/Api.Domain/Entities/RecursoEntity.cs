@@ -19,7 +19,7 @@ namespace Api.Domain.Entities
         public string habilidades { get; set; }
 
         [MaxLength(500)]
-        public string obsrevacoes { get; set; }
+        public string observacoes { get; set; }
 
         public decimal valorHora { get; set; }
 

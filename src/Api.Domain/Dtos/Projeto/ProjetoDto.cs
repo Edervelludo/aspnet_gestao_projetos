@@ -18,7 +18,7 @@ namespace Api.Domain.Dtos.Projeto
         public DateTime planejamentofim { get; set; }
         public decimal percentualConclusao { get; set; }
         public decimal custoEstimado { get; set; }
-        public decimal cursoAtual { get; set; }
+        public decimal custoAtual { get; set; }
         public decimal percentualOrcamento { get; set; }
         public int estimativaHora { get; set; }
         public int horaAtual { get; set; }

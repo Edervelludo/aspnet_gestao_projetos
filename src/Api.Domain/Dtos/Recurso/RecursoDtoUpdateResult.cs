@@ -11,7 +11,7 @@ namespace Api.Domain.Dtos
         public string nome { get; set; }
         public string telefone { get; set; }
         public string habilidades { get; set; }
-        public string obsrevacoes { get; set; }
+        public string observacoes { get; set; }
         public decimal valorHora { get; set; }
         public string cargo { get; set; }
         public Guid EmpresaId { get; set; }

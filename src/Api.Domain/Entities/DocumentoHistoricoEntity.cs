@@ -8,7 +8,7 @@ namespace Api.Domain.Entities
         public DocumentoProjetoEntity documento { get; set; }
 
         public int revisao { get; set; }
-        public string arquivoblob { get; set; }
+        public byte[] arquivoblob { get; set; }
 
         public string formatoArquivo { get; set; }
 
