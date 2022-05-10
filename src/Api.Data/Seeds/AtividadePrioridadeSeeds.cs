@@ -33,7 +33,7 @@ namespace Api.Data.Seeds
                 new AtividadePrioridadeEntity()
                 {
                     Id = new Guid(),
-                    nome = "MJUITO ALTA",
+                    nome = "MUITO ALTA",
                     descricao = "De prioridade mais alta",
                     CreateAt = DateTime.UtcNow
                 }
