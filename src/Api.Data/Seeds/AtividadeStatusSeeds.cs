@@ -11,35 +11,35 @@ namespace Api.Data.Seeds
             modelBuilder.Entity<AtividadeStatusEntity>().HasData(
                 new AtividadeStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "COMPLETA",
                     descricao = "Atividade Completa.",
                     CreateAt = DateTime.UtcNow
                 },
                 new AtividadeStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "INCOMPLETA",
                     descricao = "Atividade Incompleta.",
                     CreateAt = DateTime.UtcNow
                 },
                 new AtividadeStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "EM-PROGRESSO",
                     descricao = "Atividade em progresso",
                     CreateAt = DateTime.UtcNow
                 },
                 new AtividadeStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "NÃO-INICIADA",
                     descricao = "Atividade não iniciada",
                     CreateAt = DateTime.UtcNow
                 },
                 new AtividadeStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "EM-ESPERA",
                     descricao = "Atividade em espera.",
                     CreateAt = DateTime.UtcNow

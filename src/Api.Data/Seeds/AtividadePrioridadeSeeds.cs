@@ -11,28 +11,28 @@ namespace Api.Data.Seeds
             modelBuilder.Entity<AtividadePrioridadeEntity>().HasData(
                 new AtividadePrioridadeEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "BAIXA",
                     descricao = "De prioridade baixa.",
                     CreateAt = DateTime.UtcNow
                 },
                new AtividadePrioridadeEntity()
                {
-                   Id = new Guid(),
+                   Id = Guid.NewGuid(),
                    nome = "MEDIA",
                    descricao = "De prioridade média.",
                    CreateAt = DateTime.UtcNow
                },
                 new AtividadePrioridadeEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "ALTA",
                     descricao = "De prioridade alta",
                     CreateAt = DateTime.UtcNow
                 },
                 new AtividadePrioridadeEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "MUITO ALTA",
                     descricao = "De prioridade mais alta",
                     CreateAt = DateTime.UtcNow

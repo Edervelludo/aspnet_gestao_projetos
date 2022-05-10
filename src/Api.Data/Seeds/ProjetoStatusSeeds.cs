@@ -11,35 +11,35 @@ namespace Api.Data.Seeds
             modelBuilder.Entity<ProjetoStatusEntity>().HasData(
                 new ProjetoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "COMPLETO",
                     descricao = "Projeto Completo.",
                     CreateAt = DateTime.UtcNow
                 },
                 new ProjetoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "ABERTO",
                     descricao = "Projeto ainda em aberto.",
                     CreateAt = DateTime.UtcNow
                 },
                 new ProjetoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "EM-PROGRESSO",
                     descricao = "Projeto em progresso",
                     CreateAt = DateTime.UtcNow
                 },
                 new ProjetoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "NÃO-INICIADO",
                     descricao = "Projeto não iniciado",
                     CreateAt = DateTime.UtcNow
                 },
                 new ProjetoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "EM-ESPERA",
                     descricao = "Projeto em espera.",
                     CreateAt = DateTime.UtcNow

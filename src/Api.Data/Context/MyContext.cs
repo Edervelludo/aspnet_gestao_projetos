@@ -56,6 +56,17 @@ namespace Api.Data.Context
             );
 
             UfSeeds.Ufs(modelBuilder);
+            AtividadePrioridadeSeeds.AtividadePrioridades(modelBuilder);
+            AtividadeStatusSeeds.AtividadeStatus(modelBuilder);
+            DepartamentoSeeds.Departamentos(modelBuilder);
+            FaseProjetosSeeds.FaseProjetos(modelBuilder);
+            ProjetoPrioridadeSeeds.ProjetoPrioridades(modelBuilder);
+            ProjetoStatusSeeds.PreojetoStatus(modelBuilder);
+            QuestaoStatusSeeds.QuestaoStatus(modelBuilder);
+            QuestaorioridadeSeeds.QuestaoPrioridades(modelBuilder);
+            TipoArquivoSeeds.TipoArquivo(modelBuilder);
+
+
         }
 
     }

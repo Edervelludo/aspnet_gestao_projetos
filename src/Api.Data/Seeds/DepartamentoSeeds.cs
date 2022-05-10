@@ -11,49 +11,49 @@ namespace Api.Data.Seeds
             modelBuilder.Entity<DepartamentoEntity>().HasData(
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Operação",
                     descricao = "Operações",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Financeiro",
                     descricao = "Financeiro",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Engenharia",
                     descricao = "Engenharia",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Tecnologia da Informação",
                     descricao = "Tecnologia da Informação",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Qualidade",
                     descricao = "Qualidade",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Gestão",
                     descricao = "Gestão",
                     CreateAt = DateTime.UtcNow
                 },
                 new DepartamentoEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "Marketing",
                     descricao = "Marketing",
                     CreateAt = DateTime.UtcNow

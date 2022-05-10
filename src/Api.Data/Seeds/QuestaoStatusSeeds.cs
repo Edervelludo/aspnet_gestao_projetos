@@ -11,14 +11,14 @@ namespace Api.Data.Seeds
             modelBuilder.Entity<QuestaoStatusEntity>().HasData(
                 new QuestaoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "FECHADA",
                     descricao = "Questão Fechada.",
                     CreateAt = DateTime.UtcNow
                 },
                 new QuestaoStatusEntity()
                 {
-                    Id = new Guid(),
+                    Id = Guid.NewGuid(),
                     nome = "ABERTA",
                     descricao = "Uestão Aberta.",
                     CreateAt = DateTime.UtcNow
