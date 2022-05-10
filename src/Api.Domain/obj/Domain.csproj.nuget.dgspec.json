@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {}
+    "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
+    "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj",
+        "projectPath": "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\EDER\\.nuget\\packages\\",
-        "outputPath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Domain\\obj\\",
+        "outputPath": "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EDER\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
