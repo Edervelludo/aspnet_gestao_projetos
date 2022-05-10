@@ -1,0 +1,6 @@
+Abrir Terminal :
+
+entrar em ./api.Data
+
+>> dotnet ef migrations add <nome_da_migracao> 
+>> dotnet ef database update

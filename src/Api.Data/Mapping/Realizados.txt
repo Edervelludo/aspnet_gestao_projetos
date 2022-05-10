@@ -14,4 +14,4 @@ Projeto  Ma
 QuestaoPrioridade  Ma
 QuestaoStatus  Ma
 Questao  Ma
-Recurso  
+Recurso Magit  

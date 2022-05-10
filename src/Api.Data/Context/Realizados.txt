@@ -1,0 +1,17 @@
+Atividade  Ma Co OK
+AtividadeStatus Ma co seeds OK
+AtividadePrioridade  Ma co seeds OK
+Departamento  Ma  co seeds ok
+CartaoTempo  Ma ok 
+Empresa  Ma ok
+FaseProjeto  Ma seeds OK
+ProjetoPrioridade  Ma seeds ok
+ProjetoStatus  Ma seeds ok
+TipoArquivo  Ma seeds ok
+DocumentoProjeto  Ma ok
+DocumentoHistorico  Ma ok
+Projeto  Ma ok
+QuestaoPrioridade  Ma seeds ok
+QuestaoStatus  Ma seeds ok
+Questao  Ma ok
+Recurso Ma  ok
