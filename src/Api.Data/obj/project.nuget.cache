@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JPRSqhNCVgiKKwy1ErhRFdGdPSOEtl0U0kUzKAyheEvOaQD+IOq6l9qsEsKtRWZtDfZ818p95fHww5UPow1NXA==",
+  "dgSpecHash": "B8gBR60w6WPtpbSnuFDPwP38M40BHKy+ZN/Xf+XDnyHp887AtAooVqYIYiximh02VbR38Sha/9NEqpoTDR0YBg==",
   "success": true,
-  "projectFilePath": "D:\\DEV\\Aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
+  "projectFilePath": "D:\\DEV\\aspnet_gestao_projetos\\src\\Api.Data\\Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EDER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\EDER\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
